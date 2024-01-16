@@ -1,0 +1,245 @@
+:root {
+  --black: #050404;
+  --gray: rgb(249, 247, 246);
+  --pink: rgb(241, 50, 97);
+  --white: rgb(255, 255, 255);
+  --green: rgb(63, 183, 22);
+  --font: "SF Pro Display";
+  --border: rgb(238, 238, 238);
+}
+
+#nav-left {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  padding-top: 1%;
+  width: 240px;
+  min-width: 240px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  -webkit-box-align: center;
+  align-items: self-end;
+  -webkit-box-pack: start;
+  justify-content: flex-start;
+  background-color: var(--white);
+  box-sizing: border-box;
+  border-right: 1px solid var(--border);
+}
+a {
+  text-decoration: none;
+  color: var(--black);
+}
+.a-left-nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  width: 100%;
+  margin-left: 10%;
+  align-items: flex-start;
+}
+#border {
+  border-bottom: 1px solid var(--border);
+  width: 80%;
+  padding: 0;
+}
+#border:hover {
+  padding: 0;
+}
+#nav-left-div {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  width: 100%;
+  justify-content: center;
+}
+.navigation:hover {
+  background-color: var(--gray);
+  width: 80%;
+  height: 20px;
+  border-radius: 9px;
+  padding: 12px;
+}
+
+#home {
+  background-color: var(--gray);
+  width: 80%;
+  height: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 9px;
+}
+#title-img {
+  font-family: var(--font);
+  font-weight: bolder;
+  font-size: 1.1em;
+  display: flex;
+  flex-direction: row;
+  margin: 0% 0 20% 20%;
+}
+#img-main {
+  margin-right: 10%;
+}
+#news {
+  margin-left: 12%;
+}
+.span-text {
+  font-family: var(--font);
+  font-weight: 600;
+  font-size: 0.875rem;
+  margin-left: 10%;
+}
+.navigation {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  align-items: flex-start;
+  width: 80%;
+  padding: 12px;
+}
+/* Search Nav Section- Main Right */
+#search-nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 5px;
+  padding-bottom: 13px;
+  border-bottom: 1px solid var(--border);
+}
+#sign-in {
+  width: 90px;
+  height: 35px;
+  color: var(--white);
+  background-color: var(--black);
+  border-radius: 20px;
+  border: none;
+  font-family: var(--font);
+}
+#search-div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid var(--border);
+  border-radius: 30px;
+}
+#form {
+  border: none;
+  width: 700px;
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+#input {
+  width: 500px;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-align: start;
+  margin-left: 15px;
+  font-size: 16px;
+  font-weight: 100;
+  color: var(--border);
+  font-family: var(--font);
+}
+#input:focus {
+  color: 1px solid var(--border);
+  border: none;
+  outline: none;
+}
+#empty-space {
+  width: 440px;
+}
+#icon {
+  width: 5%;
+  height: auto;
+  padding-left: 15px;
+  padding-top: 14px;
+  padding-bottom: 12px;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+  background-color: var(--border);
+}
+#sun {
+  margin-right: 110px;
+}
+/*Game Section*/
+#mini-img {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  padding-right: 1%;
+}
+#game-section {
+  padding-top: 8px;
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  justify-content: right;
+  font-family: var(--font);
+}
+
+#game-left {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  width: 480px;
+  height: 30px;
+  background-color: var(--border);
+  border-radius: 9px;
+  font-size: 15px;
+  margin-right: 37%;
+}
+#game-left-a {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  width: 500px;
+}
+#shido {
+  font-weight: 300px;
+}
+#underline {
+  font-size: 14px;
+  font-weight: bold;
+  text-decoration: underline;
+}
+.boxes {
+  color: white;
+  width: 160px;
+  height: 29px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  border-radius: 9px;
+  font-size: 14px;
+  font-weight: 700;
+  font-family: var(--font);
+}
+#black {
+  background-color: var(--black);
+}
+#pink {
+  background-color: var(--pink);
+}
+#green {
+  background-color: var(--green);
+}
+#game-right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  text-align: center;
+  padding-right: 10px;
+  gap: 5px;
+}
+/*Game Section*/

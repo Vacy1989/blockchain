@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<head>
+  <link href="style.css" rel="stylesheet" />
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+  />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"
+  />
+  <style id="extension-fonts">
+    @font-face {
+      font-display: auto;
+      font-family: "SF Pro Display";
+      font-style: normal;
+      font-weight: 500;
+      src: url("chrome-extension://cmplbmppmfboedgkkelpkfgaakabpicn/fonts/SF-Pro-Display-Regular.ttf")
+        format("truetype");
+    }
+  </style>
+</head>
+<title>Blockchain Explorer - Bitcoin Tracker & More | Blockchain.com</title>
+<body>
+  <main>
+    <!-- Main-Div-->
+    <div id="main-div">
+      <!-- Nav-Left-->
+      <div id="nav-left">
+        <a class="a-left-nav" href="https://www.blockchain.com/en/">
+          <div id="title-div">
+            <div id="title-img">
+              <img
+                id="img-main"
+                src="blockchain-dot-com-svgrepo-com.svg"
+                width="20"
+                height="20"
+              />
+              Blockchain.com
+            </div>
+          </div>
+        </a>
+        <!-- Nav-Left-Div-->
+        <div id="nav-left-div">
+          <div class="navigation" id="home">
+            <a class="a-left-nav" href="https://www.blockchain.com/explorer">
+              <img
+                class="svg-img"
+                src="https://www.blockchain.com/explorer/_next/static/media/homeSelected.23c42ba7.svg"
+              />
+              <span class="span-text">Home</span>
+            </a>
+          </div>
+          <div class="navigation">
+            <a
+              class="a-left-nav"
+              href="https://www.blockchain.com/explorer/prices"
+            >
+              <img
+                class="svg-img"
+                src="https://www.blockchain.com/explorer/_next/static/media/prices.1d1fe584.svg"
+              />
+              <span class="span-text">Prices</span>
+            </a>
+          </div>
+          <div class="navigation">
+            <a
+              class="a-left-nav"
+              href="https://www.blockchain.com/explorer/charts"
+            >
+              <img
+                class="svg-img"
+                src="https://www.blockchain.com/explorer/_next/static/media/charts.29699b39.svg"
+              />
+              <span class="span-text">Charts</span>
+            </a>
+          </div>
+          <div class="navigation">
+            <a
+              class="a-left-nav"
+              href="https://www.blockchain.com/explorer/nfts"
+            >
+              <img
+                class="svg-img"
+                src="https://www.blockchain.com/explorer/_next/static/media/nfts.bf23d23f.svg"
+              />
+              <span class="span-text">NFTs</span>
+            </a>
+          </div>
+          <div class="navigation">
+            <a
+              class="a-left-nav"
+              href="https://www.blockchain.com/explorer/defi"
+            >
+              <img
+                class="svg-img"
+                src="https://www.blockchain.com/explorer/_next/static/media/defi.3adfd91c.svg"
+              />
+              <span class="span-text">DeFi</span>
+            </a>
+          </div>
+          <div class="navigation">
+            <a
+              class="a-left-nav"
+              href="https://www.blockchain.com/en/learning-portal/bitcoin-faq"
+            >
+              <img
+                class="svg-img"
+                src="https://www.blockchain.com/explorer/_next/static/media/academy.b00f8de4.svg"
+              />
+              <span class="span-text">Academy</span>
+            </a>
+          </div>
+          <div class="navigation">
+            <a
+              class="a-left-nav"
+              href="https://www.blockchain.com/explorer/news"
+            >
+              <img
+                class="svg-img"
+                src="news-paper-news-svgrepo-com.svg"
+                width="20"
+                height="20"
+              />
+              <span id="news" class="span-text">News</span>
+            </a>
+          </div>
+          <div class="navigation">
+            <a
+              class="a-left-nav"
+              href="https://www.blockchain.com/explorer/api"
+            >
+              <img
+                class="svg-img"
+                src="https://www.blockchain.com/explorer/_next/static/media/developers.e55820f5.svg"
+              />
+              <span class="span-text">Developers</span>
+            </a>
+          </div>
+          <div class="navigation">
+            <a
+              class="a-left-nav"
+              href="https://www.blockchain.com/en/wallet/?utm_campaign=expmarketing_createwallet"
+            >
+              <img
+                class="svg-img"
+                src="https://www.blockchain.com/explorer/_next/static/media/wallet.863d27fb.svg"
+              />
+              <span class="span-text">Wallet</span>
+            </a>
+          </div>
+          <div class="navigation">
+            <a
+              class="a-left-nav"
+              href="https://exchange.blockchain.com/?utm_campaign=expmarketing_getstarted"
+            >
+              <img
+                class="svg-img"
+                src="https://www.blockchain.com/explorer/_next/static/media/exchange2.1450cb59.svg"
+              />
+              <span class="span-text">Exchange</span>
+            </a>
+          </div>
+          <div class="navigation" id="border"></div>
+          <!-- Nav-Left-Div-Bottom-Icons-->
+          <div class="navigation">
+            <a
+              class="a-left-nav"
+              href="https://www.blockchain.com/explorer/assets/btc"
+            >
+              <img
+                class="svg-img"
+                src="https://www.blockchain.com/explorer/_next/static/media/btc.a6006067.png"
+                width="20"
+                height="20"
+              />
+              <span class="span-text">Bitcoin</span>
+            </a>
+          </div>
+          <div class="navigation">
+            <a
+              class="a-left-nav"
+              href="https://www.blockchain.com/explorer/assets/eth"
+            >
+              <img
+                class="svg-img"
+                src="https://www.blockchain.com/explorer/_next/static/media/eth.8b071eb3.png"
+                width="20"
+                height="20"
+              />
+              <span class="span-text">Ethereum</span>
+            </a>
+          </div>
+          <div class="navigation">
+            <a
+              class="a-left-nav"
+              href="https://www.blockchain.com/explorer/assets/bch"
+            >
+              <img
+                class="svg-img"
+                src="https://www.blockchain.com/explorer/_next/static/media/bch.44ead056.svg"
+              />
+              <span class="span-text">Bitcoin Cash</span>
+            </a>
+          </div>
+          <div class="navigation">
+            <a
+              class="a-left-nav"
+              href="https://www.blockchain.com/explorer/assets/bch"
+            >
+              <img
+                class="svg-img"
+                src="language-svgrepo-com.png"
+                width="15"
+                height="15"
+              />
+              <span class="span-text">English</span>
+            </a>
+          </div>
+          <!-- Nav-Left-Div-Bottom-Icons-->
+        </div>
+        <!-- Nav-Left-Div-->
+      </div>
+      <!-- Nav-Left-->
+      <!-- Main-Right-Div-->
+      <div id="main-right">
+        <!-- Search Nav-->
+        <div id="search-nav">
+          <div id="empty-space"></div>
+          <div id="search-div">
+            <div id="form-div">
+              <form id="form">
+                <input
+                  id="input"
+                  type="text"
+                  placeholder="Search Blockchain, Transactions, Addresses and Block"
+                /><i id="icon" class="fa-solid fa-magnifying-glass"></i>
+              </form>
+            </div>
+          </div>
+          <a href="https://www.blockchain.com/explorer/search?search=">
+            <div id="sun">
+              <i class="fa-regular fa-sun"></i>
+            </div>
+          </a>
+          <div>
+            <button id="sign-in" placeholder="Sign In">
+              <i class="fa-regular fa-user"></i>
+              Sign In
+            </button>
+          </div>
+        </div>
+        <!-- Search Nav-->
+      </div>
+      <!-- Game Section-->
+      <div id="game-section">
+        <div id="game-left">
+          <a
+            id="game-left-a"
+            href="https://www.cryptoslots.com/en/coinzillafreespins"
+          >
+            <img
+              id="mini-img"
+              src="https://cdn.coinzilla.io/creative/29d5d85a8772153a24644e52a9ad4a28.png"
+            />
+            <span id="sponsored">Sponsored: &nbsp;</span>
+            <span id="shido"
+              >Shido Network - Buy before Mainnet launch! &nbsp;</span
+            >
+            <span id="underline"> Buy SHIDO</span>
+          </a>
+        </div>
+        <div id="game-right">
+          <div class="boxes" id="black">Play Slots &amp; Win! 🎰</div>
+          <div class="boxes" id="pink">Win 8.88 BTC 🎰</div>
+          <div class="boxes" id="green">5 BTC Free Bonus ₿</div>
+        </div>
+      </div>
+      <!-- Game Section-->
+      <!-- Main-Right-Div-->
+    </div>
+    <!-- Main-Div-->
+  </main>
+</body>
