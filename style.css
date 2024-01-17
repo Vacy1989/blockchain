@@ -6,6 +6,7 @@
   --green: rgb(63, 183, 22);
   --font: "SF Pro Display";
   --border: rgb(238, 238, 238);
+  --text-gray: rgb(153, 153, 153);
 }
 
 #nav-left {
@@ -243,3 +244,119 @@ a {
   gap: 5px;
 }
 /*Game Section*/
+/*First Row*/
+#first-row {
+  display: flex;
+  flex-direction: row;
+  font-family: var(--font);
+}
+#empty-row {
+  width: 240px;
+}
+.rows123 {
+  width: 400px;
+}
+.bitcoin-imgs {
+  width: 70px;
+  height: 55px;
+}
+.bitcoin-mini {
+  width: 30px;
+  height: 30px;
+}
+#row1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#row1-txt {
+  padding: 0px 20px;
+}
+#row1-p1 {
+  font-weight: 600;
+  font-size: 1.45em;
+}
+.row1-p2 {
+  color: var(--text-gray);
+  font-family: var(--font);
+  margin: 0;
+}
+#row1-p2 {
+  margin: none;
+}
+#usd {
+  width: 50px;
+  height: 35px;
+  background-color: var(--border);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border-radius: 15px;
+}
+/*First Row*/
+/*Second Row*/
+#row2 {
+  display: flex;
+  flex-direction: column;
+}
+#title-row2 {
+  display: flex;
+  flex-direction: row;
+}
+#charts {
+  display: flex;
+  flex-direction: row;
+}
+#title-text-row2 {
+  display: flex;
+  flex-direction: row;
+}
+.charts-span {
+  font-size: 0.92em;
+  color: var(--text-gray);
+}
+/*Second Row*/
+/*Third Row*/
+#row3 {
+  display: flex;
+  flex-direction: column;
+}
+.column1 {
+  display: flex;
+  flex-direction: column;
+}
+.column2 {
+  display: flex;
+  flex-direction: column;
+}
+.columns12345 {
+  display: flex;
+  flex-direction: row;
+}
+.numbers {
+  font-family: var(--font);
+  font-weight: 400;
+  font-size: 1em;
+  color: rgb(0, 0, 0);
+  margin: 0;
+}
+.dates {
+  font-family: var(--font);
+  font-size: 0.9em;
+  color: var(--text-gray);
+  margin: 0;
+}
+.last-p {
+  font-family: var(--font);
+  color: rgb(0, 0, 0);
+  font-weight: 400;
+  font-size: 1em;
+  margin: 0;
+}
+.p3 {
+  margin: 0;
+}
+
+/*Third Row*/
