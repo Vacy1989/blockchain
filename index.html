@@ -274,8 +274,8 @@
         </div>
         <div id="game-right">
           <div class="boxes" id="black">Play Slots &amp; Win! 🎰</div>
-          <div class="boxes" id="pink">Win 8.88 BTC 🎰</div>
           <div class="boxes" id="green">5 BTC Free Bonus ₿</div>
+          <div class="boxes" id="pink">Win 8.88 BTC 🎰</div>
         </div>
       </div>
       <!-- Game Section end-->
@@ -318,14 +318,14 @@
                   src="https://www.blockchain.com/explorer/_next/static/media/btc.a6006067.png"
                 />
                 <div>
-                  <div>
-                    <h1>Bitcoin</h1>
-                    <h1>BTC</h1>
+                  <div id="bitcoin-h1">
+                    <h1 id="h1-btc">Bitcoin</h1>
+                    <h1 id="btc">BTC</h1>
                   </div>
-                  <div>
-                    <h2>$42,362.10</h2>
-                    <span>-1.57%</span>
-                    <span>-675.76%</span>
+                  <div id="numbers-h2">
+                    <h2 id="num-h2">$42,362.10</h2>
+                    <span class="span-h2">-1.57%</span>
+                    <span class="span-h2">-675.76%</span>
                   </div>
                 </div>
               </div>
@@ -334,34 +334,52 @@
               </div>
             </a>
           </div>
+          <a href="https://www.blockchain.com/explorer/assets/btc">
           <img src="chart.png" width="400" />
+        </a>
           <div id="charts">
-            <div>
-              <div>
-                <div>363,095</div>
-                <span class="charts-span">Transactions • 4.20 TPs</span>
+            <div class="charts2">
+              <div class="divs-charts">
+                <a
+                  href="https://www.blockchain.com/explorer/charts/n-transactions"
+                >
+                  <div>363,095</div>
+                  <span class="charts-span">Transactions • 4.20 TPs</span>
+                </a>
               </div>
-              <div>
-                <div>826,156</div>
-                <span class="charts-span">Blocks • Last 11m42s</span>
+              <div class="divs-charts">
+                <a
+                  href="https://www.blockchain.com/explorer/charts/n-transactions-per-block"
+                >
+                  <div>826,156</div>
+                  <span class="charts-span">Blocks • Last 11m42s</span>
+                </a>
               </div>
-              <div>
+              <div class="divs-charts">
+                <a href="https://www.blockchain.com/explorer/charts/blocks-size">
                 <div>541.40 GB</div>
                 <span class="charts-span">Blockchain Size</span>
               </div>
+            </a>
             </div>
-            <div>
-              <div>
+            <div class="charts2">
+              <div class="divs-charts">
+                <a href="https://www.blockchain.com/explorer/charts/output-volume">
                 <div>$9,865,659,323</div>
-                <spanclass="charts-span">Sent Today</span>
+                <span class="charts-span">Sent Today</span>
               </div>
-              <div>
+            </a>
+              <div class="divs-charts">
+                <a href="https://www.blockchain.com/explorer/charts/hash-rate">
                 <div>378.42 EH/s</div>
                 <span class="charts-span">Network Hashrate</span>
+              </a>
               </div>
-              <div>
+              <div class="divs-charts">
+                <a href="https://www.blockchain.com/explorer/charts/n-unique-addresses">
                 <div>616,604</div>
                 <span class="charts-span">Unique Addresses 24 Hr</span>
+              </a>
               </div>
             </div>
           </div>
@@ -369,23 +387,25 @@
         <!--Row2 end-->
         <!--Row3-->
         <div class="rows123" id="row3">
-          <div class="column1">
-            <div>
+          <div id="title-row3">
+            <div id="title-text-row3">
               <img
                 class="bitcoin-mini"
                 src="https://www.blockchain.com/explorer/_next/static/media/btc.a6006067.png"
               />
-              <div>
-                <h1>Latest Blocks</h1>
-                <h2>Bitcoin</h2>
+              <a href="https://www.blockchain.com/explorer/blocks/btc?page=1">
+              <div id="bitcoin-h1h2">
+                <h1 id="blocks">Latest Blocks</h1>
+                <h2 id="blocks-btc">Bitcoin</h2>
               </div>
+            </a>
             </div>
             <div class="arrow">
               <i class="fa-solid fa-arrow-right"></i>
             </div>
           </div>
           <div class="column2">
-            <div class="columns12345">
+            <div class="columns12345-div">
               <a
                 class="columns12345"
                 href="https://www.blockchain.com/explorer/blocks/btc/826169"
@@ -398,7 +418,7 @@
                 </div>
               </a>
             </div>
-            <div class="columns12345">
+            <div class="columns12345-div">
               <a
                 class="columns12345"
                 href="https://www.blockchain.com/explorer/blocks/btc/826168"
@@ -411,7 +431,7 @@
                 </div>
               </a>
             </div>
-            <div class="columns12345">
+            <div class="columns12345-div">
               <a
                 class="columns12345"
                 href="https://www.blockchain.com/explorer/blocks/btc/826167"
@@ -424,7 +444,7 @@
                 </div>
               </a>
             </div>
-            <div class="columns12345">
+            <div class="columns12345-div">
               <a
                 class="columns12345"
                 href="https://www.blockchain.com/explorer/blocks/btc/826166"
@@ -437,7 +457,7 @@
                 </div>
               </a>
             </div>
-            <div class="columns12345">
+            <div class="columns12345-div">
               <a
                 class="columns12345"
                 href="https://www.blockchain.com/explorer/blocks/btc/826151"
