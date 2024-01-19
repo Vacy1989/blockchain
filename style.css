@@ -287,7 +287,7 @@ a {
 }
 #row1-p1 {
   font-weight: 600;
-  font-size: 1.45em;
+  font-size: 1.25em;
 }
 .row1-p2 {
   color: var(--text-gray);
@@ -481,3 +481,9 @@ a {
   padding-right: 10px;
 }
 /*Third Row*/
+/*Second Row1*/
+.btc-list-img {
+  width: 25px;
+  height: 25px;
+}
+/*Second Row1*/
