@@ -3,6 +3,7 @@
   --gray: rgb(249, 247, 246);
   --pink: rgb(241, 50, 97);
   --pinknumbers: rgb(244, 91, 105);
+  --greennumbers: rgb(74, 205, 165);
   --white: rgb(255, 255, 255);
   --green: rgb(63, 183, 22);
   --font: "SF Pro Display";
@@ -13,13 +14,23 @@ body {
   font-family: "Inter var", sans-serif;
   font-feature-settings: "zero", "ss01";
 }
+#main-right-nav {
+  left: 15.8%;
+  width: 84.2%;
+  position: relative;
+}
+#right-whole-section {
+  left: 15.8%;
+  width: 84.2%;
+  position: relative;
+}
 #nav-left {
   position: fixed;
   top: 0px;
   left: 0px;
   padding-top: 1%;
-  width: 240px;
-  min-width: 240px;
+  width: 16%;
+  min-width: 16%;
   height: 100%;
   display: flex;
   flex-direction: column;
@@ -256,12 +267,11 @@ a {
   flex-direction: row;
   font-family: var(--font);
   border-bottom: 1px solid var(--border);
+  height: 30%;
 }
-#empty-row {
-  width: 240px;
-}
+
 .rows123 {
-  width: 400px;
+  width: 34%;
   padding-top: 1%;
 }
 .bitcoin-imgs {
@@ -449,7 +459,7 @@ a {
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  padding: 0 5% 5% 5%;
+  padding: 0 0 5% 5%;
 }
 #title-text-row3 {
   display: flex;
@@ -482,8 +492,323 @@ a {
 }
 /*Third Row*/
 /*Second Row1*/
+#second-row {
+  display: flex;
+  flex-direction: row;
+  border-bottom: 1px solid var(--border);
+}
+.rows456 {
+  width: 33%;
+}
+#prices-header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+#prices-header h1 {
+  font-size: 1rem;
+  margin-bottom: 0;
+}
+#prices-header h2 {
+  font-size: 0.75rem;
+  color: var(--text-gray);
+  padding: 0;
+  margin-top: 0;
+}
 .btc-list-img {
   width: 25px;
   height: 25px;
+  padding-right: 3%;
+}
+#arrow1 {
+  padding-right: 15px;
+  width: 20px;
+  height: 20px;
+  font-size: 1.3rem;
+  cursor: pointer;
+  transition: all 0.2s ease-in 0s;
+  color: var(--black);
+}
+
+#second-row1 {
+  display: flex;
+  flex-direction: column;
+  padding-left: 2px;
+  border-right: 1px solid var(--border);
+  width: 33.3%;
+}
+.btc-class-list a {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  align-items: center;
+  text-align: start;
+  justify-content: space-between;
+}
+.btc-class-list {
+  justify-content: space-around;
+}
+#btc-list {
+  display: flex;
+  flex-direction: column;
+}
+.btc-names {
+  font-size: 0.9em;
+  font-weight: 400;
+  font-family: var(--font);
+  display: flex;
+  flex-direction: row;
+}
+.btc-nicknames {
+  margin-left: 4px;
+  font-weight: 400;
+  color: var(--text-gray);
+  display: inline;
+  font-size: 0.75em;
+  font-family: var(--font);
+  padding-top: 2px;
+}
+.numbers- {
+  font-size: 0.9em;
+  color: var(--black);
+  font-family: var(--font);
+  font-weight: 400;
+  transition: background-color 0.05s ease-in 0s;
+}
+.right-numbers {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding-right: 10px;
+}
+.numbers-colored {
+  color: var(--pinknumbers);
+  font-family: var(--font);
+  padding: 0px 6px 0px 5px;
+  font-weight: 600;
+  font-size: 0.9em;
+}
+.left-names {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+  width: 60%;
+}
+.btn-black {
+  display: flex;
+  cursor: pointer;
+  flex-direction: row;
+  -webkit-box-align: center;
+  align-items: center;
+  font-family: var(--font);
+  -webkit-box-pack: center;
+  justify-content: center;
+  user-select: none;
+  -webkit-tap-highlight-color: var(--black);
+  background-color: var(--black);
+  color: var(--border);
+  opacity: 1;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 35px;
+  font-weight: 900;
+  font-size: 11px;
+  margin: 0px;
+}
+.btn-gray {
+  display: flex;
+  cursor: pointer;
+  flex-direction: row;
+  -webkit-box-align: center;
+  align-items: center;
+  font-family: var(--font);
+  -webkit-box-pack: center;
+  justify-content: center;
+  user-select: none;
+  background-color: var(--border);
+  opacity: 1;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 35px;
+  font-weight: 900;
+  font-size: 11px;
+  margin: 0px;
 }
 /*Second Row1*/
+/*Second Row2*/
+.numbers-date {
+  color: var(--text-gray);
+  font-family: var(--font);
+  font-size: 0.65em;
+  width: 20%;
+}
+.numbers1 {
+  font-family: var(--font);
+  font-size: 0.75em;
+  width: 25%;
+}
+.numbers2 {
+  font-family: var(--font);
+  font-size: 0.75em;
+  width: 30%;
+}
+.numbers3 {
+  font-family: var(--font);
+  font-size: 0.75em;
+  width: 15%;
+  display: flex;
+  align-items: end;
+}
+#second-row2 {
+  border-right: 1px solid var(--border);
+  width: 33%;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+#arrow-middle {
+  padding-left: 45%;
+}
+#transaction-numbers {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding-right: 10px;
+}
+.numbers-list a {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  align-items: center;
+  justify-content: space-around;
+}
+#second-row2-header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  justify-content: start;
+}
+#second-row2-header h1 {
+  font-size: 1rem;
+  margin-bottom: 0;
+}
+#second-row2-header h2 {
+  font-size: 0.75rem;
+  color: var(--text-gray);
+  padding: 0;
+  margin-top: 0;
+}
+#img-second-row {
+  width: 30px;
+  height: 30px;
+  padding-right: 5px;
+  padding-left: 5px;
+}
+/*Second Row2*/
+/*Second Row3*/
+#img-second-row3 {
+  width: 30px;
+  height: 30px;
+  padding-right: 5px;
+  padding-left: 5px;
+}
+#second-row3 {
+  width: 33.3%;
+}
+#two-divs {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  padding-top: 6%;
+}
+#bitcoin-cash {
+  display: flex;
+  flex-direction: row;
+  font-family: var(--font);
+  align-items: baseline;
+  padding-left: 4%;
+}
+#bitcoin-cash-h1 {
+  margin: 0;
+  font-size: 1rem;
+  font-weight: bold;
+  font-family: var(--font);
+}
+#first-of-two {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 3%;
+}
+#second-of-two {
+  display: flex;
+  flex-direction: column;
+}
+.top-btc {
+  padding-top: 12%;
+}
+#bch {
+  margin: 0;
+  font-size: 0.875rem;
+  font-weight: 400;
+  font-family: var(--font);
+  color: var(--text-gray);
+  padding-left: 3%;
+}
+#numbers-cash {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  font-family: var(--font);
+  padding-left: 4%;
+}
+#num-cash-span {
+  margin: 0;
+  font-size: 0.875rem;
+  font-family: var(--font);
+}
+#cash-span {
+  margin-left: 5px;
+  font-size: 0.75rem;
+  color: var(--greennumbers);
+}
+#cash-span2 {
+  margin-left: 5px;
+  font-size: 0.75rem;
+  color: var(--greennumbers);
+}
+.btc-cash-numbers {
+  color: var(--black);
+  font-size: 1em;
+  font-weight: 500;
+}
+.btc-cash-span {
+  font-size: 0.92em;
+  color: var(--text-gray);
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  text-decoration: none;
+  font-weight: 400;
+  font-family: var(--font);
+}
+#second-row3-title {
+  display: flex;
+  flex-direction: row;
+  padding-top: 10px;
+  padding-left: 5px;
+  padding-bottom: 10%;
+}
+#btc-arrow {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  justify-content: space-between;
+  width: 100%;
+}
+#arrow2 {
+}
+/*Second Row3*/

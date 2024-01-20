@@ -225,10 +225,9 @@
       </div>
       <!-- Nav-Left-->
       <!-- Main-Right-Div-->
-      <div id="main-right">
+      <div id="main-right-nav">
         <!-- Search Nav-->
         <div id="search-nav">
-          <div id="empty-space"></div>
           <div id="search-div">
             <div id="form-div">
               <form id="form">
@@ -254,6 +253,8 @@
         </div>
         <!-- Search Nav-->
       </div>
+      <!--Right-Div-Whole-Section-Start-->
+      <div id="right-whole-section">
       <!-- Game Section-->
       <div id="game-section">
         <div id="game-left">
@@ -282,7 +283,6 @@
       <!-- Main-Right-Div end-->
       <!-- First row-->
       <div id="first-row">
-        <div id="empty-row"></div>
         <!--Row1-->
         <div class="rows123" id="row1">
           <a
@@ -343,7 +343,7 @@
                 <a
                   href="https://www.blockchain.com/explorer/charts/n-transactions"
                 >
-                  <div>363,095</div>
+                  <div class="btc-cash-numbers">363,095</div>
                   <span class="charts-span">Transactions • 4.20 TPs</span>
                 </a>
               </div>
@@ -351,13 +351,13 @@
                 <a
                   href="https://www.blockchain.com/explorer/charts/n-transactions-per-block"
                 >
-                  <div>826,156</div>
+                  <div class="btc-cash-numbers">826,156</div>
                   <span class="charts-span">Blocks • Last 11m42s</span>
                 </a>
               </div>
               <div class="divs-charts">
                 <a href="https://www.blockchain.com/explorer/charts/blocks-size">
-                <div>541.40 GB</div>
+                <div class="btc-cash-numbers">541.40 GB</div>
                 <span class="charts-span">Blockchain Size</span>
               </div>
             </a>
@@ -365,19 +365,19 @@
             <div class="charts2">
               <div class="divs-charts">
                 <a href="https://www.blockchain.com/explorer/charts/output-volume">
-                <div>$9,865,659,323</div>
+                <div class="btc-cash-numbers">$9,865,659,323</div>
                 <span class="charts-span">Sent Today</span>
               </div>
             </a>
               <div class="divs-charts">
                 <a href="https://www.blockchain.com/explorer/charts/hash-rate">
-                <div>378.42 EH/s</div>
+                <div class="btc-cash-numbers">378.42 EH/s</div>
                 <span class="charts-span">Network Hashrate</span>
               </a>
               </div>
               <div class="divs-charts">
                 <a href="https://www.blockchain.com/explorer/charts/n-unique-addresses">
-                <div>616,604</div>
+                <div class="btc-cash-numbers">616,604</div>
                 <span class="charts-span">Unique Addresses 24 Hr</span>
               </a>
               </div>
@@ -479,8 +479,8 @@
       <!-- Second Row Start-->
       <div id="second-row">
       <!--Second Row1 Start-->
-       <div id="second-row1">
-        <div>
+       <div class="rows456" id="second-row1">
+        <div id="prices-header">
           <div>
             <a href="https://www.blockchain.com/explorer/prices"></a>
             <h1>Prices</h1>
@@ -489,129 +489,149 @@
           </div>
           <div>
             <a href="https://www.blockchain.com/explorer/prices">
-            <i class="fa-solid fa-arrow-right"></i>
+            <i id="arrow1" class="fa-solid fa-arrow-right"></i>
           </a>
           </div>
         </div>
         <div id="btc-list">
-         <div id="btc-list1">
+         <div class="btc-class-list" id="btc-list1">
           <a href="https://www.blockchain.com/explorer/assets/btc">
+            <div class="left-names">
            <img class="btc-list-img" src="https://www.blockchain.com/explorer/_next/static/media/bitcoin.df7c9480.svg"/>
-           <h1>Bitcoin</h1>
-           <h2>BTC</h2>
-           <span>$$0,348.00</span>
-           <span>-4.09%</span>
-          </a>
-          <a href="https://exchange.blockchain.com/trade/BTC-USD">
-           <button>Trade</button>
+           <h1 class="btc-names">Bitcoin</h1>
+           <h2 class="btc-nicknames">BTC</h2>
+           </div>
+           <div class="right-numbers">
+           <span class="numbers-">$40,348.00</span>
+           <span class="numbers-colored">-4.09%</span>
+           <button class="btn-black">Trade</button>
+          </div>
           </a>
          </div>
-         <div id="btc-list2">
+         <div class="btc-class-list" id="btc-list2">
           <a href="https://www.blockchain.com/explorer/assets/eth">
+            <div class="left-names">
            <img class="btc-list-img" src="https://www.blockchain.com/explorer/_next/static/media/ethereum.57ab686e.svg"/>
-           <h1>Ethereum</h1>
-           <h2>ETH</h2>
-           <span>$2,419.04</span>
-           <span>-2.85%</span>
-          </a>
-          <a href="https://exchange.blockchain.com/trade/ETH-USD">
-           <button>Trade</button>
+           <h1 class="btc-names">Ethereum</h1>
+           <h2 class="btc-nicknames">ETH</h2>
+           </div>
+           <div class="right-numbers">
+           <span class="numbers-">$2,419.04</span>
+           <span class="numbers-colored">-2.85%</span>
+           <button class="btn-black">Trade</button>
+           </div>
           </a>
          </div>
-         <div id="btc-list3">
+         <div class="btc-class-list" id="btc-list3">
           <a href="https://www.blockchain.com/explorer/assets/bnb">
+            <div class="left-names">
            <img class="btc-list-img" src="https://www.blockchain.com/explorer/_next/static/media/bnb.109d70ce.svg"/>
-           <h1>BNB</h1>
-           <h2>BNB</h2>
-           <span>$306.39</span>
-           <span>-1.84%</span>
-          </a>
-          <a class="gray-buttons" href="">
-           <button>Trade</button>
+           <h1 class="btc-names">BNB</h1>
+           <h2 class="btc-nicknames">BNB</h2>
+           </div>
+           <div class="right-numbers">
+           <span class="numbers-">$306.39</span>
+           <span class="numbers-colored">-1.84%</span>
+           <button class="btn-gray">Trade</button>
+           </div>
           </a>
          </div>
-         <div id="btc-list4">
+         <div class="btc-class-list" id="btc-list4">
           <a href="https://www.blockchain.com/explorer/assets/sol">
+            <div class="left-names">
            <img class="btc-list-img" src="https://www.blockchain.com/explorer/_next/static/media/sol.8e2ae057.svg"/>
-           <h1>Solana</h1>
-           <h2>SOL</h2>
-           <span>$88.38</span>
-           <span>-7.89%</span>
-          </a>
-          <a href="https://exchange.blockchain.com/trade/SOL-USD">
-           <button>Trade</button>
+           <h1 class="btc-names">Solana</h1>
+           <h2 class="btc-nicknames">SOL</h2>
+           </div>
+           <div class="right-numbers">
+           <span class="numbers-">$88.38</span>
+           <span class="numbers-colored">-7.89%</span>
+           <button class="btn-black">Trade</button>
+           </div>
           </a>
          </div>
-         <div id="btc-list5">
+         <div class="btc-class-list" id="btc-list5">
           <a href="https://www.blockchain.com/explorer/assets/xrp">
+            <div class="left-names">
            <img class="btc-list-img" src="https://www.blockchain.com/explorer/_next/static/media/xrp.c351e318.svg"/>
-           <h1>XRP</h1>
-           <h2>XRP</h2>
-           <span>$0.53</span>
-           <span>-5.62%</span>
-          </a>
-          <a href="https://exchange.blockchain.com/trade/XRP-USD">
-           <button>Trade</button>
+           <h1 class="btc-names">XRP</h1>
+           <h2 class="btc-nicknames">XRP</h2>
+           </div>
+           <div class="right-numbers">
+           <span class="numbers-">$0.53</span>
+           <span class="numbers-colored">-5.62%</span>
+           <button class="btn-black">Trade</button>
+           </div>
           </a>
          </div>
-         <div id="btc-list6">
+         <div class="btc-class-list" id="btc-list6">
           <a href="https://www.blockchain.com/explorer/assets/steth">
+            <div class="left-names">
            <img class="btc-list-img" src="https://www.blockchain.com/explorer/_next/static/media/stETH.62b40385.svg"/>
-           <h1>Lido Staked Ether</h1>
-           <h2>STET</h2>
-           <span>$2,420.29</span>
-           <span>-2.78%</span>
-          </a>
-          <a class="gray-buttons" href="">
-           <button>Trade</button>
+           <h1 class="btc-names">Lido Staked Ether</h1>
+           <h2 class="btc-nicknames">STET</h2>
+           </div>
+           <div class="right-numbers">
+           <span class="numbers-">$2,420.29</span>
+           <span class="numbers-colored">-2.78%</span>
+           <button class="btn-gray">Trade</button>
+           </div>
           </a>
          </div>
-         <div id="btc-list7">
+         <div class="btc-class-list" id="btc-list7">
           <a href="https://www.blockchain.com/explorer/assets/ada">
+            <div class="left-names">
            <img class="btc-list-img" src="https://www.blockchain.com/explorer/_next/static/media/ada.4b11b055.svg"/>
-           <h1>Cardano</h1>
-           <h2>ADA</h2>
-           <span>$0.47</span>
-           <span>-7.70%</span>
-          </a>
-          <a href="https://exchange.blockchain.com/trade/ADA-USD">
-           <button>Trade</button>
+           <h1 class="btc-names">Cardano</h1>
+           <h2 class="btc-nicknames">ADA</h2>
+           </div>
+           <div class="right-numbers">
+           <span class="numbers-">$0.47</span>
+           <span class="numbers-colored">-7.70%</span>
+           <button class="btn-black">Trade</button>
+           </div>
           </a>
          </div>
-         <div id="btc-list8">
+         <div class="btc-class-list" id="btc-list8">
           <a href="https://www.blockchain.com/explorer/assets/avax">
+            <div class="left-names">
            <img class="btc-list-img" src="https://www.blockchain.com/explorer/_next/static/media/avax.4baba26c.svg"/>
-           <h1>Avalanche</h1>
-           <h2>AVAX</h2>
-           <span>$31.53</span>
-           <span>-8.67%</span>
-          </a>
-          <a class="gray-buttons" href="">
-           <button>Trade</button>
+           <h1 class="btc-names">Avalanche</h1>
+           <h2 class="btc-nicknames">AVAX</h2>
+          </div>
+           <div class="right-numbers">
+           <span class="numbers-">$31.53</span>
+           <span class="numbers-colored">-8.67%</span>
+           <button class="btn-gray">Trade</button>
+           </div>
           </a>
          </div>
-         <div id="btc-list9">
+         <div class="btc-class-list" id="btc-list9">
           <a href="https://www.blockchain.com/explorer/assets/doge">
+            <div class="left-names">
            <img class="btc-list-img" src="https://www.blockchain.com/explorer/_next/static/media/doge.60836ae5.svg"/>
-           <h1>Dogecoin</h1>
-           <h2>DOGE</h2>
-           <span>$0.08</span>
-           <span>-4.30%</span>
-          </a>
-          <a href="https://exchange.blockchain.com/trade/DOGE-USD">
-           <button>Trade</button>
+           <h1 class="btc-names">Dogecoin</h1>
+           <h2 class="btc-nicknames">DOGE</h2>
+          </div>
+           <div class="right-numbers">
+           <span class="numbers-">$0.08</span>
+           <span class="numbers-colored">-4.30%</span>
+           <button class="btn-black">Trade</button>
+           </div>
           </a>
          </div>
-         <div id="btc-list10">
+         <div class="btc-class-list" id="btc-list10">
           <a href="https://www.blockchain.com/explorer/assets/trx">
+          <div class="left-names">
            <img class="btc-list-img" src="https://www.blockchain.com/explorer/_next/static/media/trx.efd34323.svg"/>
-           <h1>TRON</h1>
-           <h2>TRX</h2>
-           <span>$0.11</span>
-           <span>-0.82%</span>
-          </a>
-          <a href="https://exchange.blockchain.com/trade/TRX-USD">
-           <button>Trade</button>
+           <h1 class="btc-names">TRON</h1>
+           <h2 class="btc-nicknames">TRX</h2>
+          </div>
+           <div class="right-numbers">
+           <span class="numbers-">$0.11</span>
+           <span class="numbers-colored">-0.82%</span>
+           <button class="btn-black">Trade</button>
+           </div>
           </a>
          </div>
         </div>
@@ -619,148 +639,148 @@
       <!--Second Row1 End-->
       <!--Second Row2 Start-->
        <div id="second-row2">
-        <div>
-          <img src="https://www.blockchain.com/explorer/_next/static/media/bitcoin.df7c9480.svg"/>
+        <div id="second-row2-header">
+          <img id="img-second-row" src="https://www.blockchain.com/explorer/_next/static/media/bitcoin.df7c9480.svg"/>
           <div>
             <h1>Latest Transactions</h1>
             <h2>Bitcoin</h2>
           </div>
-          <div>
+          <div class="arrow" id="arrow-middle">
             <i class="fa-solid fa-arrow-right"></i>
           </div>
         </div>
         <div id="transaction-numbers">
          <div class="numbers-list">
           <a href="">
-          <p>68bfc-d63af</p>
+          <p class="numbers1">68bfc-d63af</p>
           <p class="numbers-date">12:53:45</p>
-          <p>1.26525768 BTC</p>
-          <p>$51.824.20</p>
+          <p class="numbers2">1.26525768 BTC</p>
+          <p class="numbers3">$51.824.20</p>
          </a>
          </div>
          <div class="numbers-list">
           <a href="">
-          <p>b7139-a9774</p>
+          <p class="numbers1">b7139-a9774</p>
           <p class="numbers-date">12:53:45</p>
-          <p>0.00133708 BTC</p>
-          <p>$54.77</p>
+          <p class="numbers2">0.00133708 BTC</p>
+          <p class="numbers3">$54.77</p>
          </a>
          </div>
          <div class="numbers-list">
           <a href="">
-          <p>f5fe9-f85bb</p>
+          <p class="numbers1">f5fe9-f85bb</p>
           <p class="numbers-date">12:53:45</p>
-          <p>0.00294398 BTC</p>
-          <p>$120.58</p>
+          <p class="numbers2">0.00294398 BTC</p>
+          <p class="numbers3">$120.58</p>
          </a>
          </div>
          <div class="numbers-list">
           <a href="">
-          <p>c1980-1e69b</p>
+          <p class="numbers1">c1980-1e69b</p>
           <p class="numbers-date">12:53:45</p>
-          <p>0.00724659 BTC</p>
-          <p>$296.82</p>
+          <p class="numbers2">0.00724659 BTC</p>
+          <p class="numbers3">$296.82</p>
          </a>
          </div>
          <div class="numbers-list">
           <a href="">
-          <p>68283-7bc3d</p>
+          <p class="numbers1">68283-7bc3d</p>
           <p class="numbers-date">12:53:45</p>
-          <p>0.00400180 BTC</p>
-          <p>$163.91</p>
+          <p class="numbers2">0.00400180 BTC</p>
+          <p class="numbers3">$163.91</p>
          </a>
          </div>
          <div class="numbers-list">
           <a href="">
-          <p>e5d3c-b3580</p>
+          <p class="numbers1">e5d3c-b3580</p>
           <p class="numbers-date">12:53:45</p>
-          <p>0.00083546 BTC</p>
-          <p>$34.22</p>
+          <p class="numbers2">0.00083546 BTC</p>
+          <p class="numbers3">$34.22</p>
          </a>
          </div>
          <div class="numbers-list">
           <a href="">
-          <p>OdOdc-d4421</p>
+          <p class="numbers1">OdOdc-d4421</p>
           <p class="numbers-date">12:53:45</p>
-          <p>0.01213780 BTC</p>
-          <p>$497.16</p>
+          <p class="numbers2">0.01213780 BTC</p>
+          <p class="numbers3">$497.16</p>
          </a>
          </div>
          <div class="numbers-list">
           <a href="">
-          <p>86847-4bcd6</p>
+          <p class="numbers1">86847-4bcd6</p>
           <p class="numbers-date">12:53:45</p>
-          <p>0.08617672 BTC</p>
-          <p>$3,529.75</p>
+          <p class="numbers2">0.08617672 BTC</p>
+          <p class="numbers3">$3,529.75</p>
          </a>
          </div>
          <div class="numbers-list">
           <a href="">
-          <p>5978a-a0ecc</p>
+          <p class="numbers1">5978a-a0ecc</p>
           <p class="numbers-date">12:53:45</p>
-          <p>0.04817332 BTC</p>
-          <p>$1.973.15</p>
+          <p class="numbers2">0.04817332 BTC</p>
+          <p class="numbers3">$1.973.15</p>
          </a>
          </div>
          <div class="numbers-list">
           <a href="">
-          <p>bOdb5-b5322</p>
+          <p class="numbers1">bOdb5-b5322</p>
           <p class="numbers-date">12:53:45</p>
-          <p>0.19282020 BTC</p>
-          <p>$7,897.80</p>
+          <p class="numbers2">0.19282020 BTC</p>
+          <p class="numbers3">$7,897.80</p>
          </a>
          </div>
         </div>
        </div>
        <!--Second Row2 End-->
       <!--Second Row3 Start-->
-       <div id="second-row3">
-        <div>
-          <div>
-            <a href="">
-              <img src="https://www.blockchain.com/explorer/_next/static/media/bch.49cfc2d6.png"/>
-            </a>
-            <div>
-              <h1>BitcoinCash</h1>
-              <h2>BCH</h2>
+       <div class="rows456" id="second-row3">
+        <div id="second-row3-title">
+              <img id="img-second-row3" src="https://www.blockchain.com/explorer/_next/static/media/bch.49cfc2d6.png"/>
+
+            <div id="btc-arrow">
+              <div>
+            <div id="bitcoin-cash">
+              <h1 id="bitcoin-cash-h1">BitcoinCash</h1>
+              <h2 id="bch">BCH</h2>
             </div>
-            <div>
-              <span>$232.19</span>
-              <span>-1.97%</span>
-              <span>-4.68</span>
+            <div id="numbers-cash">
+              <span id="num-cash-span">$232.19</span>
+              <span id="cash-span">+1.97%</span>
+              <span id="cash-span2">+4.68</span>
             </div>
-            <div>
+          </div>
+            <div id="arrow2" class="arrow">
               <i class="fa-solid fa-arrow-right"></i>
             </div>
           </div>
         </div>
-        <img src="chart2.png"/>
-        <div>
+        <img src="chart2.png" width="400"/>
+        <div id="two-divs">
+          <div id="first-of-two">
+            <div>
+              <div class="btc-cash-numbers">828,935</div>
+              <span class="btc-cash-span">Blocks • Last 26m25s</span>
+            </div>
+            <div class="top-btc">
+             <div class="btc-cash-numbers">0.000021 BCH</div>
+             <span class="btc-cash-span">Average Fee</span>
+            </div>
+          </div>
+        <div id="second-of-two">
           <div>
-            <div>
-              <div>828,935</div>
-              <span>Blocks • Last 26m25s</span>
-            </div>
-            <div>
-             <div>0.000021 BCH</div>
-             <span>Average Fee</span>
-            </div>
+            <div class="btc-cash-numbers">2.45 EH/s</div>
+            <span class="btc-cash-span">Network Hashrate</span>
+          </div>
+          <div class="top-btc">
+           <div class="btc-cash-numbers">100</div>
+           <span class="btc-cash-span">Pending Transactions</span>
           </div>
         </div>
-        <div>
-          <div>
-            <div>2.45 EH/s</div>
-            <span>Network Hashrate</span>
-          </div>
-          <div>
-           <div>100</div>
-           <span>Pending Transactions</span>
-          </div>
         </div>
       </div>
        </div>
        <!--Second Row3 End-->
-      </div>
       <!-- Second Row End-->
       <!--Third Row Start-->
       <div id="third-row">
@@ -819,7 +839,7 @@
                   <a
                     href="https://www.blockchain.com/explorer/charts/n-transactions"
                   >
-                    <div>1,172,427</div>
+                    <div class="btc-cash-numbers">1,172,427</div>
                     <span class="charts-span">Transactions • 13.57 TPs</span>
                   </a>
                 </div>
@@ -827,13 +847,13 @@
                   <a
                     href="https://www.blockchain.com/explorer/charts/n-transactions-per-block"
                   >
-                    <div>19,042,564</div>
+                    <div class="btc-cash-numbers">19,042,564</div>
                     <span class="charts-span">Blocks • Last 0m7s</span>
                   </a>
                 </div>
                 <div class="divs-charts">
                   <a href="https://www.blockchain.com/explorer/charts/blocks-size">
-                  <div>0.003412 ETH</div>
+                  <div class="btc-cash-numbers">0.003412 ETH</div>
                   <span class="charts-span">Average Fee</span>
                 </div>
               </a>
@@ -841,7 +861,7 @@
               <div class="charts2">
                 <div class="divs-charts">
                   <a href="https://www.blockchain.com/explorer/charts/output-volume">
-                  <div>$2,890,173,246</div>
+                  <div class="btc-cash-numbers">$2,890,173,246</div>
                   <span class="charts-span">Sent Today</span>
                 </div>
               </a>
@@ -853,7 +873,7 @@
                 </div>
                 <div class="divs-charts">
                   <a href="https://www.blockchain.com/explorer/charts/n-unique-addresses">
-                  <div>25,582</div>
+                  <div class="btc-cash-numbers">25,582</div>
                   <span class="charts-span">Pending Transactions</span>
                 </a>
                 </div>
@@ -872,8 +892,11 @@
           </div>
         </a>
         </div>
+        <!--Third Row End-->
       </div>
-      <!--Third Row End-->
+    <!--Right-Div-Whole-Section-End-->
+    </div>
+<!--Right-Div-Whole-Section-End-->
       <!-- Main-Div end-->
     </div>
     <!-- Main-Div end-->
