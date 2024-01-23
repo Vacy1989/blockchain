@@ -76,11 +76,8 @@ a {
 }
 .navigation:hover {
   background-color: var(--gray);
-  width: 75%;
-  height: 17px;
-  margin-left: 5%;
+  box-shadow: 0 0 10px var(--gray);
   border-radius: 9px;
-  padding: 12px;
 }
 
 #home {
@@ -1304,3 +1301,6 @@ a {
 }
 
 /*Icons End*/
+/* Media Query */
+@media screen and (max-width: 600px) {
+}
