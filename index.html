@@ -24,9 +24,7 @@
 </head>
 <title>Blockchain Explorer - Bitcoin Tracker & More | Blockchain.com</title>
 <body>
-  <main>
     <!-- Main-Div-->
-    <div id="main-div">
       <!-- Nav-Left-->
       <div id="nav-left">
         <a class="a-left-nav" href="https://www.blockchain.com/en/">
@@ -40,8 +38,21 @@
               />
               Blockchain.com
             </div>
+          <div id="mobile">
+          <div><i id="icon-mobile" class="fa-solid fa-magnifying-glass"></i></div>
+          <div id="sun-mobile">
+            <i class="fa-regular fa-sun"></i>
+          </div>
+          <div id="sign-in-nav-mobile">
+            <button id="sign-in-mobile" placeholder="Sign In">
+              <i class="fa-regular fa-user"></i>
+              Sign In
+            </button>
+          </div>
+        </div>
           </div>
         </a>
+        
         <!-- Nav-Left-Div-->
         <div id="nav-left-div">
           <div class="navigation" id="home">
@@ -244,7 +255,7 @@
               <i class="fa-regular fa-sun"></i>
             </div>
           </a>
-          <div>
+          <div id="sign-in-nav">
             <button id="sign-in" placeholder="Sign In">
               <i class="fa-regular fa-user"></i>
               Sign In
@@ -335,7 +346,7 @@
             </a>
           </div>
           <a href="https://www.blockchain.com/explorer/assets/btc">
-          <img src="chart.png" width="400" />
+          <img id="img-1" src="chart.png" width="400" />
         </a>
           <div id="charts">
             <div class="charts2">
@@ -655,7 +666,7 @@
           <p class="numbers1">68bfc-d63af</p>
           <p class="numbers-date">12:53:45</p>
           <p class="numbers2">1.26525768 BTC</p>
-          <p class="numbers3">$51.824.20</p>
+          <p class="numbers3">$51.824</p>
          </a>
          </div>
          <div class="numbers-list">
@@ -755,7 +766,7 @@
             </div>
           </div>
         </div>
-        <img src="chart2.png" width="390"/>
+        <img id="chart2-mobile" src="chart2.png" width="390"/>
         <div id="two-divs">
           <div id="first-of-two">
             <div>
@@ -796,9 +807,11 @@
             </div>
           </a>
           </div>
+        <div id="pie-chart-img">
           <a href="https://www.blockchain.com/explorer/charts/pools">
-          <img src="pie-chart.png" width="330"/>
+          <img id="pie-chart-mobile" src="pie-chart.png" width="330"/>
         </a>
+      </div>
         </div>
       <!-- <div id="third-row-row2">--> 
           <div id="third-row-row2">
@@ -1035,7 +1048,7 @@
     <!--Fourth Row3 End-->
   </div>
   <!--Last Section Start-->
-  <div>
+  <div id="last-section">
     <div id="title-icons">Explore top crypto assets.</div>
     <div id="list">
     <div id="icons-row1">
@@ -1222,7 +1235,5 @@
   </div>
 <!--Right-Div-Whole-Section-End-->
       <!-- Main-Div end-->
-    </div>
     <!-- Main-Div end-->
-  </main>
 </body>
