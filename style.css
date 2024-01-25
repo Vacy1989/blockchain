@@ -20,6 +20,18 @@ body {
 #icon-mobile {
   display: none;
 }
+#title-img-mobile {
+  display: none;
+}
+#img-mobile {
+  display: none;
+}
+#img-main-mobile {
+  display: none;
+}
+#mobile-blockchain {
+  display: none;
+}
 #mobile {
   display: none;
 }
@@ -1326,24 +1338,48 @@ a {
     flex-wrap: wrap;
   }
   #nav-left-div {
-    display: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+  #title-img-mobile {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5% 5% 5% 3%;
+    border-bottom: 1px solid var(--border);
+  }
+  #img-mobile {
+    display: flex;
+    font-weight: 700;
+    font-size: 1em;
+  }
+  #img-main-mobile {
+    display: flex;
+    padding-right: 5px;
+  }
+  #mobile-blockchain {
+    display: flex;
   }
   #nav-left {
+    display: none;
     position: fixed;
     width: 0%;
     min-width: 0%;
   }
   #main-right-nav {
-    display: flex;
-    flex-direction: column;
+    display: none;
   }
+
   #right-whole-section {
     display: flex;
     flex-direction: column;
     width: 100%;
     position: absolute;
     left: 0;
-    top: 120px;
+    top: 80px;
     border-right: none;
   }
   #title-img {
@@ -1355,6 +1391,7 @@ a {
   #title-div {
     margin-bottom: 5%;
     display: flex;
+    position: fixed;
     flex-direction: row;
     justify-content: center;
     align-items: center;
@@ -1369,24 +1406,30 @@ a {
   #mobile {
     display: flex;
     flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
   }
   #icon-mobile {
     display: flex;
     width: 15%;
     height: auto;
+    padding-right: 15px;
   }
   #sun-mobile {
     display: flex;
+    padding-right: 15px;
+    padding-left: 5px;
   }
   #sign-in-nav-mobile {
     display: flex;
+    padding-left: 2px;
   }
   #sign-in-mobile {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 90px;
-    height: 35px;
+    width: 80px;
+    height: 30px;
     color: var(--white);
     background-color: var(--black);
     border-radius: 20px;
@@ -1627,5 +1670,103 @@ a {
   }
   #icons-row3 {
     display: none;
+  }
+}
+@media screen and (max-width: 375px) {
+  #game-section {
+    width: 100%;
+  }
+  #game-right {
+    width: 80%;
+  }
+  #game-left {
+    width: 280px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  #right-whole-section {
+    display: flex;
+    flex-direction: column;
+  }
+  .boxes {
+    width: 280px;
+  }
+  #mini-img {
+    margin-top: 5%;
+  }
+  #game-left-a {
+    padding: 1px;
+  }
+  #shido {
+    font-size: 1em;
+    font-weight: 300px;
+  }
+  #usd {
+    margin-left: 80%;
+  }
+  #arrow-middle {
+    padding-left: 30%;
+  }
+  #arrow2 {
+    padding-left: 40%;
+  }
+  #trading-txt {
+    width: 90%;
+    font-size: 1.2em;
+  }
+  #trading-txt-p {
+    font-size: 0.9em;
+  }
+  #pdc-text {
+    font-size: 0.7em;
+    width: 100%;
+  }
+  #pdc-div {
+    font-size: 0.85em;
+  }
+  #img3 {
+    width: 100%;
+  }
+  .btc-cash-numbers {
+    font-size: 0.8em;
+  }
+  .charts-span {
+    font-size: 0.72em;
+  }
+  .podcast-bold {
+    line-height: 0.9rem;
+    font-size: 0.7em;
+  }
+  .podcast-list {
+    align-items: baseline;
+    padding-left: 5px;
+  }
+  #icons-last {
+    width: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .icons-list-last img {
+    width: 30px;
+  }
+  .icons-name {
+    margin: 0;
+  }
+  .podcast-p {
+    font-size: 0.7em;
+  }
+  .podcasts-same {
+    width: 90%;
+    height: 40px;
+    padding: 10px 5px 10px 10px;
+  }
+  .name-crypto {
+    font-size: 12px;
+  }
+  .nickname-crypto {
+    font-size: 0.75rem;
   }
 }
